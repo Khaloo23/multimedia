@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #ca0d2a;
+  color: #fff;
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  text-align: center;
+  background: #E1EAF4;
+  padding: 2rem;
+}
+
+#hero video {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.categories div {
+  max-width: 250px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.images {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Animation */
+.animation {
+  margin: 1rem auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  background: #aa131b;
+  border-radius: 50%;
+  position: absolute;
+  animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 80px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label, form input, form textarea, form button {
+  margin-bottom: 1rem;
+}
+
+form input, form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.7rem;
+  background: #e41212;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #350804;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #dd1620;
+  color: white;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .images img, 
+  .images video {
+    width: 25%;
+    height:300px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .video-section video {
+    width: 100%; 
+    max-width: 600px; 
+    height: 400px; 
+    object-fit: cover; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+  }
+  
+  .images video {
+    outline: none;
+  }
+  
+  
